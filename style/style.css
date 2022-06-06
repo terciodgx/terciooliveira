@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  hr {
+    width: 50%;
+    color: #353535;
+    font-weight: bold;
+  }
+  
+  html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #353535;
+    background: linear-gradient(#d7d7d7, #fff);
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+  }
+  
+  main {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .eu2 img {
+    width: 400px;
+    height: 600px;
+    border-radius: 300px;
+    padding-top: 8px;
+    border: 2px solid lightgrey;
+  }
+  
+  main section {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 250px;
+  }
+  
+  .right {
+    align-items: flex-end;
+    text-align: right;
+  }
+  .right img {
+    width: 40px;
+  }
+  
+  .right img:hover {
+    opacity: 0.6;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #222222;
+  }
+  
+  .item spam {
+    color: #7c7a7a;
+    margin-bottom: 18px;
+  }
+  
+  .tem p {
+    line-height: 22px;
+    font-weight: 500;
+  }
+  
+  .item h1 {
+    font-size: 35px;
+  }
+  
+  .tecLogo img {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .tecLogo img:hover {
+    transform: scale(1.05);
+  }
+  
+  .container-infos {
+    width: 100%;
+    padding: 35px 0;
+  }
+  
+  .link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1c1c1c;
+  }
+  
+  .link:hover {
+    color: #7c7a7a;
+  }
+  .container-rosto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .container-rosto img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+  }
+  
+  .container-companys {
+    width: 100%;
+    height: 180px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container-companys div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .container-companys img {
+    height: 70px;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-companys img:hover {
+    transform: scale(1.05);
+  }
+  
